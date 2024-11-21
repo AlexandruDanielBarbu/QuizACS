@@ -1,0 +1,18 @@
+[
+    {
+      "question": "What is the capital of France?",
+      "correct answer": "Paris",
+      "others": [
+        "London",
+        "Berlin"
+      ]
+    },
+    {
+      "question": "What is the largest country in the world by land area?",
+      "correct answer": "Russia",
+      "answers": [
+        "Canada",
+        "China"
+      ]
+    }
+  ]
