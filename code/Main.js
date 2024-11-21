@@ -7,6 +7,8 @@ fetch("../questions.json")
     })
     .then((data) => {
         console.log(data);
-
+        let obj = JSON.parse(data);
+        let question = new Question(data.question);
+        console.log(question);
     })
     .catch((error) => console.error("Unable to fetch"))
